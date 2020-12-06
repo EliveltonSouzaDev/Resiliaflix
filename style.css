@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+/* NAVBAR*/
+
+header {
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+
+.logo {
+    display: flex;
+    width: 180px;
+    height: 150px;
+    margin-left: 7%;
+    margin-top: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+strong {
+    color: rgb(226, 48, 48);
+}
+
+nav ul {
+    display: flex;
+    margin-right: 100px;
+
+
+}
+
+nav ul li a {
+    color: #fecd1a;
+    display: block;
+    padding: 8px;
+    border: 1px solid #fecd1a;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    border: 1px solid rgb(226, 48, 48);
+    color: rgb(226, 48, 48);
+}
+
+
+
+
+/* main */
+
+
+body {
+    font-family:Helvetica, sans-serif	;    
+    background: linear-gradient(90deg, rgba(14, 141, 227, 1) 0%, rgba(74, 71, 71, 1) 0%, rgba(46, 46, 43, 1) 100%, rgba(229, 212, 77, 1) 100%, rgba(241, 223, 81, 1) 100%, rgba(245, 237, 118, 1) 100%, rgba(154, 153, 123, 1) 100%, rgba(179, 180, 55, 1) 100%, rgba(132, 169, 104, 1) 100%, rgba(14, 141, 227, 1) 100%, rgba(2, 0, 36, 1) 100%, rgba(245, 245, 245, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.titulo{
+    display: inline;
+    color:#fecd1a;
+    text-align: center;
+    padding:10px;
+}
+
+.background {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.background img {
+    width: 100%;
+    height: 250px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap:  wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 90%;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 12%;
+    margin-bottom: 30px;
+
+}
+
+.container .img {
+    height: 350px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.titulo{
+    display:flex;
+    
+}
+
+
+.galeria{
+    display: flex;
+}
+
+.galeria a:hover{
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+
+
+
+/* Rodapé*/
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    justify-content: center;
+
+}
+
+.rodape ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row wrap;
+    margin-right: 10px;
+    justify-content: center;
+
+}
+
+.rodape ul li {
+    justify-content: space-around;
+    margin-right: 10px;
+    margin-top: 12px;
+
+}
+
+.rodape .copy {
+    display: flex;
+    justify-content: center;
+    color: #fecd1a
+}
+
+
+@media (max-width: 768px){
+
+    
+.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+
+
+}
+
+nav ul li a {
+    color: #fecd1a;
+    padding: 1px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size:14px;
+
+}
+
+.background img {
+    width: 100%;
+    height: 120px;
+}
+
+
+   .container {
+       display:flex;
+       flex-direction: column;
+       margin-left: 17%;
+   }
+   .container .galeria {
+       display:flex;
+       flex-direction: wrap;
+       flex-wrap: wrap;
+   }
+
+   .container .img {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+}
