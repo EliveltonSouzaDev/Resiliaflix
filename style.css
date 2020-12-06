@@ -198,6 +198,12 @@ nav ul li a {
     height: 120px;
 }
 
+.titulo{
+    text-align: center;
+    margin-right: 30px;
+    justify-content: flex-start;
+}
+
 
    .container {
        display:flex;
