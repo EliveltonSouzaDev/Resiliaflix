@@ -1,2 +1,2 @@
 # ResiliaFlix
- Site criado durante as aulas da Resilia+Stone, utilizando HTML e CSS (flexbox), e adaptando para o modo responsivo.
+ Site criado durante o aprendizado de HTML e CSS (flexbox) das aulas da Resilia+Stone, e adaptação para o modo responsivo.
